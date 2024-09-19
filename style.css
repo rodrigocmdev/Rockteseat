@@ -17,6 +17,7 @@ body * {
 #container {
     width: 360px;
     margin: 56px auto 0px;
+    padding: 0 24px;
 }
 
 #profile {
@@ -25,7 +26,8 @@ body * {
 }
 
 #profile img {
-    width: 112px;
+    width: 132px;
+    border-radius: 50%;
 }
 
 #profile p {
@@ -41,6 +43,8 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 16px;
+
+    padding: 24px 0;
 }
 
 ul li a{
@@ -68,3 +72,31 @@ ul li a:hover {
     background: rgba(255, 255, 255, 0.05);
     border: 2px solid white;
 }
+
+/* social links*/
+
+#social {
+    display: flex;
+    justify-content: center;
+    
+
+    padding: 24px 0;
+
+    font-size: 35px;
+}
+
+#social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+
+    transition: background 0.2s;
+    border-radius: 50%;
+}
+
+#social a:hover {
+    background: rgba(255, 255, 255, 0.2);
+
+}
+
